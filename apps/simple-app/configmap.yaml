@@ -4,3 +4,7 @@ metadata:
   name: simple-app-config
 data:
   WELCOME_MSG: "Hello from ArgoCD!"
+metadata:
+  name: simple-app-config
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
